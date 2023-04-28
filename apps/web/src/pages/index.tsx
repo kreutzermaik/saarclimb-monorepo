@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Button, Card } from "ui";
+import { Button } from "ui";
 
 const CARD_CONTENT = [
   {
@@ -39,13 +39,7 @@ export default function Home() {
           </span>
         </h1>
         <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
-          <Button backgroundColor={"red"} label={"Primary Button"} onClick={showAlert} primary={true} size={"medium"}/>
-        </div>
-
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 place-content-evenly">
-          {CARD_CONTENT.map((card) => (
-            <Card key={card.title} {...card} />
-          ))}
+          <Button backgroundColor={"red"} label={"Primary SolidButton"} onClick={showAlert} primary={true} size={"medium"}/>
         </div>
       </main>
     </div>

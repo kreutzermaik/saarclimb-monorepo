@@ -4,7 +4,7 @@ import { Button } from 'ui';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta = {
-  title: 'Example/Button',
+  title: 'Example/SolidButton',
   component: Button,
   tags: ['autodocs'],
 } satisfies Meta<typeof Button>;
@@ -16,26 +16,26 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     primary: true,
-    label: 'Primary Button',
+    label: 'Primary SolidButton',
   },
 };
 
 export const Secondary: Story = {
   args: {
-    label: 'Secondary Button',
+    label: 'Secondary SolidButton',
   },
 };
 
 export const Large: Story = {
   args: {
     size: 'large',
-    label: 'Large Button',
+    label: 'Large SolidButton',
   },
 };
 
 export const Small: Story = {
   args: {
     size: 'small',
-    label: 'Small Button',
+    label: 'Small SolidButton',
   },
 };

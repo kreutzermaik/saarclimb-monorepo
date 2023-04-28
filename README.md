@@ -39,7 +39,7 @@ import "ui/styles.css";
 UI-Komponente importieren:
 ```js
 // Beliebige JSX-Datei
-import { Button } from "ui";
+import { SolidButton } from "ui";
 // ...
-<Button backgroundColor={"red"} label={"Button"} onClick={showAlert} primary={true} size={"medium"}/>
+<SolidButton backgroundColor={"red"} label={"Button"} onClick={showAlert} primary={true} size={"medium"}/>
 ```

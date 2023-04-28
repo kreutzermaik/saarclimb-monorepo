@@ -1,0 +1,12 @@
+/**
+import components
+ */
+@import "styles/button.css";
+
+/**
+import tailwind
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
