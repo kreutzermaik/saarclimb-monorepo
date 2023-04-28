@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .storybook-button {
     font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -13,7 +9,7 @@
 }
 .storybook-button--primary {
     color: white;
-    background-color: #1ea7fd !important;
+    background-color: #1ea7fd;
 }
 .storybook-button--secondary {
     color: #333;

@@ -20,6 +20,11 @@ const CARD_CONTENT = [
 ];
 
 export default function Home() {
+
+  function showAlert() {
+    alert("Hallo");
+  }
+
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
@@ -34,7 +39,7 @@ export default function Home() {
           </span>
         </h1>
         <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
-          <Button />
+          <Button backgroundColor={"red"} label={"Button"} onClick={showAlert} primary={true} size={"medium"}/>
         </div>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 place-content-evenly">
