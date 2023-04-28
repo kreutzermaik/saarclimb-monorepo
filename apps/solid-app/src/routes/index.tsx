@@ -1,6 +1,6 @@
 import { A } from "solid-start";
 import Counter from "~/components/Counter";
-import { Button } from "~/components/Button";
+import { Button } from "~/components/ui/Button";
 
 export default function Home() {
   return (
@@ -10,9 +10,15 @@ export default function Home() {
       </h1>
       <Counter />
         <br /><br />
-        <Button backgroundColor={"red"} label={"Primary Button"} primary={true} size={"medium"}/>
+        <Button label={"Primary Button"} primary={true}/>
         <br />
-        <Button backgroundColor={"red"} label={"Secondary Button"} primary={false} size={"medium"}/>
+        <Button label={"Secondary Button"}/>
+        <br />
+        <Button label={"Small Button"} backgroundColor={"bg-yellow-200"} size={"small"}/>
+        <br />
+        <Button label={"Medium Button"} backgroundColor={"bg-red-500"} color={"text-white"} size={"medium"}/>
+        <br />
+        <Button backgroundColor={"bg-green-600"} color={"text-white"} label={"Large Button"} size={"large"}/>
 
       <p class="mt-8">
         Visit{" "}
