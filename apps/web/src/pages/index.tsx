@@ -28,18 +28,18 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
-        <title>Web - Turborepo Example</title>
+        <title>&#127814;&#x1F9D7; SaarClimb - Boulder & Workout</title>
       </Head>
 
       <main className="mx-auto w-auto px-4 pt-16 pb-8 sm:pt-24 lg:px-8">
         <h1 className="mx-auto text-center text-6xl font-extrabold tracking-tight text-white sm:text-7xl lg:text-8xl xl:text-8xl">
-          Web
+          SaarClimb
           <span className="block bg-gradient-to-r from-brandred to-brandblue bg-clip-text text-transparent px-2">
-            Turborepo Example
+            &#128170; Boulder & Workout &#128170;
           </span>
         </h1>
         <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
-          <Button backgroundColor={"red"} label={"Button"} onClick={showAlert} primary={true} size={"medium"}/>
+          <Button backgroundColor={"red"} label={"Primary Button"} onClick={showAlert} primary={true} size={"medium"}/>
         </div>
 
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 place-content-evenly">
